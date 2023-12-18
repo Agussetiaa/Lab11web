@@ -1,0 +1,282 @@
+/* General Reset */
+body, h1, h2, p, ul, li, table, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font and Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+/* Header */
+header {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3498db;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading 2 */
+h2 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3498db;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px rgba(255, 255, 255, 0.1);
+}
+h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Form Container */
+.form-container {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #ecf0f1;
+}
+
+/* Form Input */
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+}
+
+/* Table Styles */
+.my-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.my-table th, .my-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.my-table th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.my-table tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.my-table tr:hover {
+    background-color: #ebebeb;
+}
+
+/* Input Text */
+input[type="text"] {
+    max-width: 100%;
+    background-color: #fff;
+    border: none;
+    font-family: "Raleway SemiBold", sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+}
+
+/* Form Submit Button */
+form table input[type="submit"] {
+    display: block;
+    background-color: #fff;
+    font-family: Raleway SemiBold, sans-serif;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form table input[type="submit"]:hover {
+    background-color: #ffffff;
+    transition: 0.5s all;
+}
+
+/* Navigation */
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    display: block;
+    border-radius: 5px;
+    border: 5px solid #fff;
+    background-color: #3498db;
+}
+
+nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a.active, nav a:hover {
+    background-color: #fff;
+}
+
+/* Content */
+.content {
+    background-color: #fff;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.btn-delete {
+    border: 1px solid #e67e22;
+    background: #e67e22 url("img/hapus.png") no-repeat 5px 4px;
+    height: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.btn-update {
+    border: 1px solid #00b3a8;
+    background: #00b3a8 url("img/update.png") no-repeat 5px 4px;
+    height: 22px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    clear: both;
+    text-align: left;
+    padding: 20px;
+    color: black;
+    border-radius: 5px;
+    font-family: "Raleway SemiBold", sans-serif;
+    border: 5px solid #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    color: #fff;
+}
+
+/* Table row styles */
+tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
+
+tr:hover {
+    background-color: #d4e6f1;
+}
+
+/* Table cell styles */
+td {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Add some spacing between the table cells */
+td, th {
+    padding: 15px;
+}
+
+/* Add some spacing between the table cells and the table borders */
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+/* Add a box shadow to the table */
+table {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tambah Barang button styles */
+.tambah-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e67e22;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    margin: 0 auto;
+}
+
+.tambah-button:hover {
+    background-color: #3498db;
+}
+
+h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px rgba(255, 255, 255, 0.1);
+}
+
+.button-icon {
+    width: 20px;
+    height: 20px;
+}
+
+body {
+    background-color: #f3f3f3;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
